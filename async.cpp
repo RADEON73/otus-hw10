@@ -27,7 +27,7 @@ namespace async {
 			std::this_thread::sleep_for(std::chrono::milliseconds(10));
 		delete processor;
 	}
-	void async::flush(HANDLE handle)
+	void flush(HANDLE handle)
 	{
 		auto processor = static_cast<BulkProcessor*>(handle);
 		processor->finalize();
