@@ -1,0 +1,20 @@
+<map id="main.cpp" name="main.cpp">
+<area shape="rect" id="Node000001" title=" " alt="" coords="176,5,259,31"/>
+<area shape="rect" id="Node000002" title=" " alt="" coords="63,79,143,104"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="200,33,134,74,132,69,198,28"/>
+<area shape="rect" id="Node000003" title=" " alt="" coords="5,152,195,177"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="211,33,157,106,122,144,119,140,153,102,207,30"/>
+<area shape="rect" id="Node000004" href="$Server_8h.html" title="Заголовочный файл класса Server." alt="" coords="217,79,292,104"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="226,30,245,65,240,68,221,32"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="317,79,403,104"/>
+<area shape="poly" id="edge9_Node000001_Node000009" title=" " alt="" coords="241,28,326,70,323,75,239,33"/>
+<area shape="poly" id="edge6_Node000004_Node000003" title=" " alt="" coords="231,106,139,149,137,144,229,102"/>
+<area shape="rect" id="Node000005" href="$async_8h.html" title="Заголовочный файл асинхронного интерфейса" alt="" coords="219,152,291,177"/>
+<area shape="poly" id="edge4_Node000004_Node000005" title=" " alt="" coords="257,104,257,138,252,138,252,104"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="315,152,472,177"/>
+<area shape="poly" id="edge7_Node000004_Node000007" title=" " alt="" coords="278,102,360,143,357,148,276,106"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="496,152,563,177"/>
+<area shape="poly" id="edge8_Node000004_Node000008" title=" " alt="" coords="293,100,483,149,482,154,292,105"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="219,225,290,251"/>
+<area shape="poly" id="edge5_Node000005_Node000006" title=" " alt="" coords="257,178,257,212,252,212,252,178"/>
+</map>
