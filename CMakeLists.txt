@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.29)
 
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
-project(bulk_server VERSION 1.1.1)
+project(bulk_server VERSION 1.0.0)
 
 add_executable(bulk_server 
 main.cpp
