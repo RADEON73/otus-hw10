@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['try_5fpop_0',['try_pop',['../classThreadSafeQueue.html#a8cd5e08dced66f7f20c07bb9f866dfde',1,'ThreadSafeQueue']]]
+  ['_7ebulkprocessor_0',['~BulkProcessor',['../classBulkProcessor.html#a94751663d57038e73a946af68d95e47c',1,'BulkProcessor']]],
+  ['_7eibulkcommand_1',['~IBulkCommand',['../classIBulkCommand.html#a4bf8205b43799dd6655c610a838b709b',1,'IBulkCommand']]],
+  ['_7eicommand_2',['~ICommand',['../classICommand.html#aa8a6346c5a0dcfe7fd49413a69e854ef',1,'ICommand']]],
+  ['_7emultithreadoutputter_3',['~MultiThreadOutputter',['../classMultiThreadOutputter.html#a487f2bf1b6e49b559f08f10d05cef82e',1,'MultiThreadOutputter']]]
 ];

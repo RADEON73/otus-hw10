@@ -1,29 +1,31 @@
 <map id="Server.cpp" name="Server.cpp">
-<area shape="rect" id="Node000001" title=" " alt="" coords="392,5,483,31"/>
-<area shape="rect" id="Node000002" href="$Server_8h.html" title="Заголовочный файл класса Server." alt="" coords="275,79,349,104"/>
-<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="419,33,346,74,343,69,416,28"/>
-<area shape="rect" id="Node000003" href="$async_8h.html" title="Заголовочный файл асинхронного интерфейса" alt="" coords="309,152,381,177"/>
-<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="432,33,362,142,358,139,428,30"/>
-<area shape="rect" id="Node000005" title=" " alt="" coords="5,152,195,177"/>
-<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="399,33,335,54,264,81,193,115,133,148,130,143,190,110,262,76,333,49,397,28"/>
-<area shape="rect" id="Node000006" title=" " alt="" coords="405,152,563,177"/>
-<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="443,30,465,103,477,138,472,140,460,105,438,32"/>
-<area shape="rect" id="Node000008" title=" " alt="" coords="797,152,875,177"/>
-<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="483,23,579,43,635,58,689,76,755,109,810,142,807,147,753,113,687,81,633,63,578,48,482,29"/>
-<area shape="rect" id="Node000009" title=" " alt="" coords="583,79,675,104"/>
-<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="469,28,586,71,584,76,467,33"/>
-<area shape="rect" id="Node000010" href="$Session_8h.html" title="Заголовочный файл класса Session для обработки соединений" alt="" coords="475,79,559,104"/>
-<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="452,29,496,68,492,72,448,33"/>
-<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="320,103,337,139,332,141,315,105"/>
-<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="279,107,148,150,146,145,277,101"/>
-<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="341,102,444,144,442,149,339,106"/>
-<area shape="rect" id="Node000007" title=" " alt="" coords="219,152,285,177"/>
-<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="304,106,273,143,268,140,300,103"/>
-<area shape="rect" id="Node000004" title=" " alt="" coords="310,225,381,251"/>
-<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="348,178,348,212,343,212,343,178"/>
-<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="491,106,387,149,385,144,489,102"/>
-<area shape="poly" id="edge15_Node000010_Node000006" title=" " alt="" coords="514,105,498,141,493,139,509,103"/>
-<area shape="poly" id="edge13_Node000010_Node000008" title=" " alt="" coords="560,99,784,149,783,154,559,105"/>
-<area shape="rect" id="Node000011" title=" " alt="" coords="587,152,773,177"/>
-<area shape="poly" id="edge16_Node000010_Node000011" title=" " alt="" coords="545,102,642,144,640,149,542,106"/>
+<area shape="rect" id="Node000001" title=" " alt="" coords="432,5,523,31"/>
+<area shape="rect" id="Node000002" href="$Server_8h.html" title="Заголовочный файл класса Server." alt="" coords="275,86,349,111"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="454,33,350,83,347,78,452,28"/>
+<area shape="rect" id="Node000003" href="$async_8h.html" title="Заголовочный файл асинхронного интерфейса" alt="" coords="309,167,381,192"/>
+<area shape="poly" id="edge8_Node000001_Node000003" title=" " alt="" coords="470,32,366,158,362,154,466,29"/>
+<area shape="rect" id="Node000005" title=" " alt="" coords="5,167,195,192"/>
+<area shape="poly" id="edge9_Node000001_Node000005" title=" " alt="" coords="432,31,352,50,264,81,189,121,128,161,125,156,186,116,262,76,351,45,431,25"/>
+<area shape="rect" id="Node000006" title=" " alt="" coords="405,167,563,192"/>
+<area shape="poly" id="edge10_Node000001_Node000006" title=" " alt="" coords="476,32,466,70,464,94,465,118,476,153,471,155,460,119,458,94,461,69,471,30"/>
+<area shape="rect" id="Node000008" title=" " alt="" coords="797,167,875,192"/>
+<area shape="poly" id="edge7_Node000001_Node000008" title=" " alt="" coords="523,24,603,43,647,58,689,76,716,95,740,117,805,158,803,162,737,121,712,100,687,81,645,63,601,48,522,29"/>
+<area shape="rect" id="Node000009" title=" " alt="" coords="583,86,675,111"/>
+<area shape="poly" id="edge11_Node000001_Node000009" title=" " alt="" coords="501,28,596,77,594,82,499,33"/>
+<area shape="rect" id="Node000010" href="$Session_8h.html" title="Заголовочный файл класса Session для обработки соединений" alt="" coords="475,86,559,111"/>
+<area shape="poly" id="edge12_Node000001_Node000010" title=" " alt="" coords="486,30,508,73,503,75,481,32"/>
+<area shape="rect" id="Node000012" title=" " alt="" coords="751,79,911,119"/>
+<area shape="poly" id="edge17_Node000001_Node000012" title=" " alt="" coords="523,27,738,74,737,79,522,32"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="319,110,338,153,333,155,314,113"/>
+<area shape="poly" id="edge4_Node000002_Node000005" title=" " alt="" coords="282,114,144,165,143,160,280,109"/>
+<area shape="poly" id="edge5_Node000002_Node000006" title=" " alt="" coords="338,109,448,159,445,163,336,114"/>
+<area shape="rect" id="Node000007" title=" " alt="" coords="219,167,285,192"/>
+<area shape="poly" id="edge6_Node000002_Node000007" title=" " alt="" coords="305,113,271,157,267,154,301,110"/>
+<area shape="rect" id="Node000004" title=" " alt="" coords="310,240,381,265"/>
+<area shape="poly" id="edge3_Node000003_Node000004" title=" " alt="" coords="348,192,348,226,343,226,343,192"/>
+<area shape="poly" id="edge14_Node000010_Node000003" title=" " alt="" coords="493,114,384,163,382,159,491,109"/>
+<area shape="poly" id="edge15_Node000010_Node000006" title=" " alt="" coords="515,113,497,155,492,153,510,110"/>
+<area shape="poly" id="edge13_Node000010_Node000008" title=" " alt="" coords="549,109,571,116,784,164,783,169,570,121,547,114"/>
+<area shape="rect" id="Node000011" title=" " alt="" coords="587,167,773,192"/>
+<area shape="poly" id="edge16_Node000010_Node000011" title=" " alt="" coords="542,109,645,158,643,163,540,114"/>
 </map>

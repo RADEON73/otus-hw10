@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['threadsafequeue_0',['ThreadSafeQueue',['../classThreadSafeQueue.html',1,'']]],
-  ['threadsafequeue_2eh_1',['ThreadSafeQueue.h',['../ThreadSafeQueue_8h.html',1,'']]],
-  ['threadsafequeue_3c_20item_20_3e_2',['ThreadSafeQueue&lt; ITEM &gt;',['../classThreadSafeQueue.html',1,'']]],
-  ['try_5fpop_3',['try_pop',['../classThreadSafeQueue.html#a8cd5e08dced66f7f20c07bb9f866dfde',1,'ThreadSafeQueue']]]
+  ['_7ebulkprocessor_0',['~BulkProcessor',['../classBulkProcessor.html#a94751663d57038e73a946af68d95e47c',1,'BulkProcessor']]],
+  ['_7eibulkcommand_1',['~IBulkCommand',['../classIBulkCommand.html#a4bf8205b43799dd6655c610a838b709b',1,'IBulkCommand']]],
+  ['_7eicommand_2',['~ICommand',['../classICommand.html#aa8a6346c5a0dcfe7fd49413a69e854ef',1,'ICommand']]],
+  ['_7emultithreadoutputter_3',['~MultiThreadOutputter',['../classMultiThreadOutputter.html#a487f2bf1b6e49b559f08f10d05cef82e',1,'MultiThreadOutputter']]]
 ];

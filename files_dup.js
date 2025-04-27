@@ -14,6 +14,5 @@ var files_dup =
     [ "Server.cpp", "Server_8cpp.html", null ],
     [ "Server.h", "Server_8h.html", "Server_8h" ],
     [ "Session.cpp", "Session_8cpp.html", null ],
-    [ "Session.h", "Session_8h.html", "Session_8h" ],
-    [ "ThreadSafeQueue.h", "ThreadSafeQueue_8h.html", "ThreadSafeQueue_8h" ]
+    [ "Session.h", "Session_8h.html", "Session_8h" ]
 ];

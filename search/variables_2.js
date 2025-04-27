@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['log_5fqueue_0',['log_queue',['../classMultiThreadOutputter.html#af0656c69f42ec5f601b358ea697f8b15',1,'MultiThreadOutputter']]]
+  ['log_5fqueue_0',['log_queue',['../classMultiThreadOutputter.html#a3b32a6ca11e0252725ea7c5be16cd9a7',1,'MultiThreadOutputter']]]
 ];

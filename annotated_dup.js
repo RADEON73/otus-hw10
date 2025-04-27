@@ -18,6 +18,5 @@ var annotated_dup =
     [ "RegularCommand", "classRegularCommand.html", "classRegularCommand" ],
     [ "Server", "classServer.html", "classServer" ],
     [ "Session", "classSession.html", "classSession" ],
-    [ "StartBlockCommand", "classStartBlockCommand.html", "classStartBlockCommand" ],
-    [ "ThreadSafeQueue", "classThreadSafeQueue.html", "classThreadSafeQueue" ]
+    [ "StartBlockCommand", "classStartBlockCommand.html", "classStartBlockCommand" ]
 ];

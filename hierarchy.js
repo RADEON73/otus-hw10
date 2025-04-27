@@ -23,7 +23,5 @@ var hierarchy =
     ] ],
     [ "MultiThreadOutputter", "classMultiThreadOutputter.html", null ],
     [ "ProcessorManager", "classProcessorManager.html", null ],
-    [ "Server", "classServer.html", null ],
-    [ "ThreadSafeQueue< T >", "classThreadSafeQueue.html", null ],
-    [ "ThreadSafeQueue< ITEM >", "classThreadSafeQueue.html", null ]
+    [ "Server", "classServer.html", null ]
 ];
