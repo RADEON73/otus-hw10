@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 3.29)
 
 set(CMAKE_WINDOWS_EXPORT_ALL_SYMBOLS ON)
 
-project(bulk_server VERSION 1.0.0)
+project(bulk_server VERSION 1.0.1)
 
 add_executable(bulk_server 
 main.cpp
@@ -18,7 +18,6 @@ BulkProcessor.cpp BulkProcessor.h
 MultiThreadOutputter.cpp MultiThreadOutputter.h
 BulkCommands.h
 BulkCommandFactory.h
-ThreadSafeQueue.h
 )
 
 set_target_properties(bulk_server async PROPERTIES

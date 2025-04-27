@@ -1,10 +1,10 @@
 #pragma once
-#include "ThreadSafeQueue.h"
 #include <mutex>
 #include <string>
 #include <thread>
 #include <stop_token>
 #include <random>
+#include <boost/thread/concurrent_queues/sync_queue.hpp>
 
 class MultiThreadOutputter
 {
@@ -14,12 +14,11 @@ public:
 	MultiThreadOutputter(const MultiThreadOutputter&) = delete;
 	MultiThreadOutputter& operator=(const MultiThreadOutputter&) = delete;
 
-	~MultiThreadOutputter();
-
+	~MultiThreadOutputter() noexcept;
 	static MultiThreadOutputter& getInstance();
 
-	ThreadSafeQueue<ITEM> log_queue; ///< Очередь логирования
-	ThreadSafeQueue<ITEM> file_queue; ///< Очередь записи в файл
+	boost::concurrent::sync_queue<ITEM> log_queue; ///< Очередь логирования
+	boost::concurrent::sync_queue<ITEM> file_queue; ///< Очередь записи в файл
 
 private:
 	MultiThreadOutputter();

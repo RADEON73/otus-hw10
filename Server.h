@@ -24,11 +24,7 @@ public:
      * @param bulk_size Размер блока команд
     */
     Server(boost::asio::io_context& io_context, short port, size_t bulk_size);
-
-    /**
-    * @brief Деструктор сервера
-    */
-    ~Server();
+    void stop();
 
 private:
     void do_accept();

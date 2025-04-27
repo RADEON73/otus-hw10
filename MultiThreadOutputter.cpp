@@ -11,9 +11,16 @@
 #include <thread>
 #include <stop_token>
 
-MultiThreadOutputter::~MultiThreadOutputter()
+MultiThreadOutputter::~MultiThreadOutputter() noexcept
 {
 	stop_source_.request_stop(); // Посылаем сигнал остановки
+
+	if (log_thread.joinable())
+		log_thread.join();
+	if (file_thread1.joinable())
+		file_thread1.join();
+	if (file_thread2.joinable())
+		file_thread2.join();
 }
 
 MultiThreadOutputter& MultiThreadOutputter::getInstance() {
@@ -31,12 +38,12 @@ MultiThreadOutputter::MultiThreadOutputter() :
 void MultiThreadOutputter::log_worker(std::stop_token stoken) {
 	ITEM item;
 	while (!stoken.stop_requested()) {
-		if (log_queue.try_pop(item))
+		if (log_queue.try_pull(item) == boost::queue_op_status::success)
 			process_log_item(item);
 		else
 			std::this_thread::yield();
 	}
-	while (log_queue.try_pop(item))
+	while (log_queue.try_pull(item) == boost::queue_op_status::success)
 		process_log_item(item);
 }
 
@@ -86,12 +93,12 @@ void MultiThreadOutputter::file_worker(int id, std::stop_token stoken) {
 	std::uniform_int_distribution dis(100000000, 999999999);
 	ITEM item;
 	while (!stoken.stop_requested()) {
-		if (file_queue.try_pop(item)) {
+		if (file_queue.try_pull(item) == boost::queue_op_status::success) {
 			process_file_item(id, item, gen, dis);
 		}
 		else
 			std::this_thread::yield();
 	}
-	while (file_queue.try_pop(item))
+	while (file_queue.try_pull(item) == boost::queue_op_status::success)
 		process_file_item(id, item, gen, dis);
 }

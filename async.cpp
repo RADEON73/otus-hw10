@@ -23,8 +23,6 @@ namespace async {
 			return;
 		auto processor = static_cast<BulkProcessor*>(handle);
 		processor->finalize();
-		while (!MultiThreadOutputter::getInstance().log_queue.empty() || !MultiThreadOutputter::getInstance().file_queue.empty())
-			std::this_thread::sleep_for(std::chrono::milliseconds(10));
 		delete processor;
 	}
 	void flush(HANDLE handle)
