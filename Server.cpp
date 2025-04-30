@@ -17,23 +17,7 @@ Server::Server(boost::asio::io_context& io_context, short port, size_t bulk_size
 
 void Server::stop()
 {
-    // 1. Закрываем акцептор
     acceptor_.close();
-
-    // 2. Пытаемся подключиться к серверу, чтобы "разбудить" async_accept
-    try {
-        boost::asio::io_context temp_ctx;
-        tcp::socket temp_socket(temp_ctx);
-        tcp::endpoint server_endpoint(
-            boost::asio::ip::address_v4::loopback(),
-            acceptor_.local_endpoint().port()
-        );
-        temp_socket.connect(server_endpoint);
-        temp_socket.close();
-    }
-    catch (...) {}  // Игнорируем ошибки (если сервер уже закрыт)
-
-    // 3. Отключаем обработчики команд
     async::disconnect(staticProcessor_);
 }
 
